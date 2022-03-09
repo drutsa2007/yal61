@@ -7,7 +7,7 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
 @app.route('/')
 def index():
-    return "Привет из Лицея!"
+    return "<h1>Привет из Лицея!</h1>"
 
 
 if __name__ == '__main__':
